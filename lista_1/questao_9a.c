@@ -9,10 +9,10 @@ int main () {
     float cel = 0, fah = 0;
 
     printf("Digite a temperatura em graus Celsius:");
-    scanf("%f",&cel);
+    scanf("%.2f",&cel);
 
-    fah = cel*1.8;
+    fah = (cel*1.8)+32;
 
-    printf("Mostre o valor convertido %f", fah);
-    scanf("%f",&fah);
+    printf("Mostre o valor convertido para Fahrenheit : %.2f", fah);
+
 }
