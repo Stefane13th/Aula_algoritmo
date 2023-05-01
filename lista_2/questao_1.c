@@ -2,25 +2,25 @@
 de um automóvel e dizer se a velocidade média foi superior ao limite de 110km/h ou não
 */
 
-#include <stdio>
+#include <stdio.h>
 
 int main () {
 
     float d = 0, temp = 0, vm = 0;
 
-    printf ("Digite a distancia (em km):");
+    printf("Digite a distancia (em km):");
     scanf("%f", &d);
 
-    printf ("Digite o tempo de viagem (em horas):");
+    printf("Digite o tempo de viagem (em horas):");
     scanf("%f", &temp);
 
     vm = d / temp;
 
     if (vm > 110) {
-        printf ("velocidade superior ao limite de 110km/h",vm);
+        printf("velocidade superior ao limite de 110km/h: %2.f",vm);
 
     } else {
-        printf ("velocidade inferior ao limite de 110km/h",vm);
+        printf("velocidade inferior ao limite de 110km/h: %2.f",vm);
     }
 
     return 0;
