@@ -5,21 +5,20 @@
 #include <math.h>
 
 int main() {
-    float a = 0, v = 0, r = 0;
+    float a = 0, v, r = 0;
+//Recebendo o valo da altura da lata na variável "a"
+    printf("Digite o valor da altura:");
+    scanf("%f",&a);
 
 //Recebendo o valor do raio da lata na variável "r"
     printf("Digite o valor raio:");
-    scanf("%2.f",&r);
-
-//Recebendo o valo da altura da lata na variável "a"
-    printf("Digite a altura da lata:");
-    scanf("%2.f",&a);
+    scanf("%f",&r);
 
 //Calculo do volume da lata de óleo
-    v = 3.14159*pow(r,2)*a;
+    v = M_PI * pow(r, 2) * a;
 
 //Apresentando o calculo do volume da lata
     printf("O volume da lata de oleo eh: %2.f",v);
 
-    return (0);
+    return 0;
 }
