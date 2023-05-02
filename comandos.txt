@@ -1,0 +1,25 @@
+git config --global user.email "stefane.rodriguesufpa@gmail.com"
+git config --global user.name "Stefane13th"
+git add . (comando que add para área de preparação direto)
+para saber que foi de fato adicionado faça:
+git status (comando que mostra os dados add)
+git commit -m "Arquivo novo" (comando que pega os arquivos da 
+área de preparação e add)
+assim, posso vê um histórico dos meus commits. Faça:
+git log 
+
+para enviar os meus arquivos para o github, faça:
+git push origin main (empurra os arquivos para a nuvem)
+git pull origin main (trazer modificações que fiz na nuvem)
+
+criando uma ramificação
+
+git branch "nome_da_ramificacao"
+
+git branch para visualizar se foi criado
+
+git checkout "nome_da_ramificacao" para entrar na nova branch
+
+para voltar para main, faça:
+
+git checkout main
