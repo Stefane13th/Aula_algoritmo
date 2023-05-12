@@ -10,5 +10,6 @@ int main () {
     for (i = 0; i < 20; i++) {
         printf("Digite o %d valor para armazenar:",i + 1);
         scanf("%d",&vet[i]);
+        printf("\n");
     }
 }
