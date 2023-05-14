@@ -15,7 +15,7 @@ int main () {
     } 
 
     // Leitura do valor do fornecido pelo usuário
-    printf("Digite um numero qualquer:\n");
+    printf("\nDigite um numero qualquer:\n");
     scanf("%d", &numb);
 
     // Criando um loop para verificação da ocorrência do número no vetor
