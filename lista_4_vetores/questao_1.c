@@ -1,6 +1,6 @@
 /*Ler 10 valores inteiros e os armazene em um vetor. O programa deve
 percorrer o vetor e contar a quantidade de números pares e a quantidade de
-números ímpares. Apresente como resultado as quantidades encontradas.*/
+números ímpares. Apresente como resultado as quantidades encontradas e as posições.*/
 
 #include <stdio.h>
 
