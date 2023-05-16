@@ -1,16 +1,20 @@
-/* Questão 1-Criar um programa para apresentar o quadrado dos números inteiros de 15 e 100. 1. 
-Criar um programa para apresentar o quadrado dos números inteiros de 15 e 100. */
+/* Questão 1-Criar um programa para apresentar o quadrado dos números inteiros de 15 até 100.  */
 
-#include<stdio.h>
+#include <stdio.h>
 #include <math.h>
 
-int main() {
-    int cont=0, x1=0;
-    for ( cont = 15; cont <= 100; cont ++) {
+int main () {
 
-        x1 = pow(cont, 2);
-        printf("Potencia de %d eh =%d", cont, x1);
+    int cont = 15, ax = 0;
+
+  
+    do {
+        ax = pow(cont,2);
+        printf("A potencia de %d eh %d", cont, ax);
         printf("\n");
+        cont++;
 
-    }
+    } while (cont <= 100);
+
+    return 0;
 }
