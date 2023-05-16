@@ -1,4 +1,4 @@
-// Questão 5
+/*Questão 5 - Apresentar os resultados das potências de 3, variando do expoente 0 até o expoente 15*/
 
 #include<stdio.h>
 #include <math.h>

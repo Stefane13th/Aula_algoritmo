@@ -1,4 +1,5 @@
-// Questão 4
+/*Questão 4 -  Desenvolver um programa que apresente todos os números divisíveis por 4 que sejam
+menores que 200*/
 
 #include<stdio.h>
 #include <math.h>

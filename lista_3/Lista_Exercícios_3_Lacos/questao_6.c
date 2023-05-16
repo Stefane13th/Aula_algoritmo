@@ -1,4 +1,5 @@
-// Questão 6
+/*Questão 6 - Ler diversos números e mostrar quantos deles são ímpares. O valor -999 é o código
+para fim de entrada. */
 
 #include<stdio.h>
 #include <math.h>

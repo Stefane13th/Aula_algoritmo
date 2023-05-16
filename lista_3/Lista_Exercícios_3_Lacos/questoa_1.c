@@ -1,4 +1,5 @@
-// Questão 1
+/* Questão 1-Criar um programa para apresentar o quadrado dos números inteiros de 15 e 100. 1. 
+Criar um programa para apresentar o quadrado dos números inteiros de 15 e 100. */
 
 #include<stdio.h>
 #include <math.h>

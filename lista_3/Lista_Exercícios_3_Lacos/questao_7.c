@@ -1,4 +1,5 @@
-// questão 7
+/*questão 7- Fazer um algoritmo que leia diversos números e mostre quantas vezes o número 10 foi
+digitado. O valor 0 (zero) é o código de fim de entrada. */
 
 #include<stdio.h>
 #include <math.h>
