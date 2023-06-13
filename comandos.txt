@@ -23,3 +23,11 @@ git checkout "nome_da_ramificacao" para entrar na nova branch
 para voltar para main, faça:
 
 git checkout main
+
+meclar a remificação na main passo:
+entrar na main - git checkout main
+git merge "nome_da_ramificacao"
+
+no final disso mandar para o github
+git push origin main
+
