@@ -92,5 +92,25 @@
 			"group": "build",
 			"detail": "H:\\Meu Drive\\Aula_algoritmo\\lista_4_vetores.exe"
 		},
+		{
+			"type": "cppbuild",
+			"label": "C/C++: gcc.exe build active file",
+			"command": "H:\\Meu Drive\\Aula_algoritmo\\exemplo_matrizes.exe",
+			"args": [
+				"-fdiagnostics-color=always",
+				"-g",
+				"${file}",
+				"-o",
+				"${fileDirname}\\${fileBasenameNoExtension}.exe"
+			],
+			"options": {
+				"cwd": "${fileDirname}"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build",
+			"detail": "H:\\Meu Drive\\Aula_algoritmo\\lista_4_vetores.exe"
+		},
 	]
 }
