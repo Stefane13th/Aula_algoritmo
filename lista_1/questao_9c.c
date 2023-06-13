@@ -5,8 +5,7 @@ Desta	forma,	será	possível	obter	a	distância	percorrida	com	a	fórmula:
 Distância =	tempo	x	velocidade
 Tendo	 o	 valor	 da	 distância,	 basta	 calcular	 a	 quantidade	 de	 litros	 de	
 combustível	utilizada	na	viagem	com	a	fórmula:	Litros	usados =	distância /	
-2
-O	programa	deve	apresentar	os	valores	da	velocidade	média,	tempo	gasto	na	
+2 .  O	programa	deve	apresentar	os	valores	da	velocidade	média,	tempo	gasto	na	
 viagem,	distância	percorrida	e	a	quantidade	de	litros	utilizada	na	viagem.	*/
 
 #include <stdio.h>
